@@ -2,7 +2,7 @@ local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/au
 
 TDS:Loadout("Trapper", "Gatling Gun", "DJ Booth", "Mercenary Base", "Hacker")
 TDS:Mode("Frost")
-TDS:GameInfo("Lay By", {})
+TDS:GameInfo("Lay By", {HiddenEnemies = true, Glass = true, Limitation = true, ExplodingEnemies = true, Quarantine = true})
 
 TDS:Place("Trapper", -2.66595458984375, 242.99998474121094, 228.10533142089844)
 TDS:Ready()
